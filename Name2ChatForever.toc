@@ -3,7 +3,7 @@
 ## Notes: Adds your name to chat messages. World of Warcraft: Forever port of Name2Chat by gOOvER.
 ## Author: akiloan (Forever port), gOOvER (original Name2Chat)
 ## Version: 1.0.0
-## IconTexture: Interface\Icons\INV_Misc_Note_01
+## IconTexture: Interface\AddOns\Name2ChatForever\media\icon
 ## SavedVariables: Name2ChatForeverDB
 ## OptionalDeps: Ace3
 ## AllowAddOnTableAccess: 1

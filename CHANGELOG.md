@@ -18,7 +18,7 @@ Port to World of Warcraft: Forever. Licensed under GPL-3.0 like the original.
 - **Guild note filter hardened** (fix for `(Ely): (Ely): ...` shown on own officer messages): own messages are now recognised by sender GUID instead of name (Forever character names can carry a surname/realm that doesn't match `UnitName("player")`), the "already prefixed" check ignores leading spaces/color codes, and a note already present in the message is never added again. A debug line shows what the filter receives.
 - **Guild & Communities window (J) supported**: messages typed in that window's own input box bypass the main chat edit box (they go through `CommunitiesFrame.Chat:SendMessage` → `C_Club.SendMessage`), so the name was never added there. The addon now hooks that path once `Blizzard_Communities` is loaded, for guild and officer streams only (same "Guild" option). Shared checks were moved to `CanAddNameNow()` / `BuildPrefixedText()` so both input boxes follow exactly the same rules.
 - **Reorganised options panel** into sections (General, Chat channels, Behaviour, Received messages, Advanced); long labels now use the full width so they are no longer cut off. Saved settings are unchanged.
-- Added an addon list icon (`## IconTexture`).
+- Added a custom addon list icon (`media/icon.tga`, `## IconTexture`).
 - Removed `ChatCompat.lua`: it was loaded but never used since the switch to the `ChatFrame.OnEditBoxPreSendText` hook.
 - Fixed leftover "Incognito" wording in the English option description.
 - Removed the original author's distribution metadata (CurseForge/Wago/WoWI IDs, funding links, release workflows).
