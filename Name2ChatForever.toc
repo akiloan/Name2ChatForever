@@ -1,0 +1,20 @@
+## Interface: 16001
+## Title: Name2Chat Forever
+## Notes: Adds your name to chat messages. World of Warcraft: Forever port of Name2Chat by gOOvER.
+## Author: akiloan (Forever port), gOOvER (original Name2Chat)
+## Version: 1.0.0
+## IconTexture: Interface\Icons\INV_Misc_Note_01
+## SavedVariables: Name2ChatForeverDB
+## OptionalDeps: Ace3
+## AllowAddOnTableAccess: 1
+## LoadSavedVariablesFirst: 1
+## X-License: GPL-3.0
+## X-Website: https://github.com/akiloan/Name2ChatForever
+## X-Original-Addon: https://github.com/gOOvER/Name2Chat
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+locale.xml
+Name2ChatForever.lua
